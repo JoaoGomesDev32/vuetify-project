@@ -1,16 +1,22 @@
 <template>
   <VApp>
     <VAppBar flat color="amber">
-      <VAppBarTitle>Reparauto</VAppBarTitle>
+      <VIcon icon="['fab', 'instagram']"></VIcon>
+      <VIcon>Instagran</VIcon>
+      <VAppBarTitle>Denize Santos</VAppBarTitle>
     </VAppBar>
     <!--cor primaria = amber secundaria = red-accent-4-->
     <VMain>
-      
       <VContainer>
-        <h1>Denize Santos</h1>
-        <div class="text-subtitle">Representante Comercial</div>
+        <h1 class="text-h5 text-md-h4">Denize Santos</h1>
+        <h2 class="text-h6 text-md-h5">Representante Comercial</h2>
+        <VRow>
+          <VCol cols="12" md="4" lg="3">1</VCol>
+          <VCol cols="12" md="4" lg="3">1</VCol>
+          <VCol cols="12" md="4" lg="3">1</VCol>
+          <VCol cols="12" md="4" lg="3">1</VCol>
+        </VRow>
       </VContainer>
-      <!-- <RouterView /> -->
     </VMain>
   </VApp>
 </template>
